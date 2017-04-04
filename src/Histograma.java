@@ -78,7 +78,7 @@ public class Histograma {
     {
         BufferedImage img = ImageIO.read(new File(PATH, "car.png"));
         BufferedImage novaImg = Equalizacao(img);
-        ImageIO.write(img, "png", new File(PATH, "car2.png"));
+        ImageIO.write(novaImg, "png", new File(PATH, "car2.png"));
     }
 
     public static void main(String[] args) throws IOException {
